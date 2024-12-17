@@ -3,7 +3,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5433/JenkinsDb
+    url: jdbc:postgresql://host.docker.internal:5433/JenkinsDb
     username: JenkinsDb
     password: JenkinsDb
   jpa:
@@ -16,3 +16,6 @@ spring:
   liquibase:
     enabled: true
     change-log: db/changelog/master.yaml
+
+  sonar:
+    login: ${SONAR_PASSWORD}
