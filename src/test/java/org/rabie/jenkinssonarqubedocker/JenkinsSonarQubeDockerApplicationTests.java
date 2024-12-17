@@ -6,6 +6,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class JenkinsSonarQubeDockerApplicationTests {
 
+    @Test
+    void getTest() {
+        System.out.println("Test");
+    }
 
 
 }
