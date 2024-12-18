@@ -28,7 +28,7 @@
     </scm>
     <properties>
         <java.version>17</java.version>
-        <sonar.login>sqa_b5f91a8f1a490e81005eb9c1df169cb4d1e1808a</sonar.login>
+        <sonar.login>sqa_74dcd2f12d7de33c5adf961f6c0b5345ad1c0e27</sonar.login>
     </properties>
     <dependencies>
         <dependency>
@@ -84,6 +84,7 @@
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>3.9.1.2184</version>
             </plugin>
+
         </plugins>
     </build>
 
